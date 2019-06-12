@@ -1,3 +1,6 @@
+#ifndef PRIORITYQUEUE_H_
+#define PRIORITYQUEUE_H_
+
 #include <queue>
 
 template <typename T> 
@@ -13,3 +16,5 @@ class templatePriorityQueue {
 		void push(const T&);
 		void pop();	
 };
+
+#endif // PRIORITYQUEUE_H_
